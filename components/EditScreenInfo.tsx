@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     color: 'rgba(96,100,109, 0.8)',
   },
   codeHighlightContainer: {
-    borderRadius: 5,
+    borderRadius: 3,
     paddingHorizontal: 4,
   },
   getStartedText: {
@@ -96,11 +96,11 @@ const styles = StyleSheet.create({
   },
   helpContainer: {
     marginTop: 15,
-    marginHorizontal: 50,
+    marginHorizontal: 20,
     alignItems: 'center',
   },
   helpLink: {
-    paddingVertical: 10,
+    paddingVertical: 15,
   },
   helpLinkText: {
     textAlign: 'center',
