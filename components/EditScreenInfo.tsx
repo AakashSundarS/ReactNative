@@ -28,7 +28,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(0,255,0,0.8)">
-          Yours truly, Aakash.
+          Yours truly, Aakash...
         </Text>
       </View>
 
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     color: 'rgba(96,100,109, 0.8)',
   },
   codeHighlightContainer: {
-    borderRadius: 3,
+    borderRadius: 5,
     paddingHorizontal: 4,
   },
   getStartedText: {
@@ -96,11 +96,11 @@ const styles = StyleSheet.create({
   },
   helpContainer: {
     marginTop: 15,
-    marginHorizontal: 20,
+    marginHorizontal: 50,
     alignItems: 'center',
   },
   helpLink: {
-    paddingVertical: 15,
+    paddingVertical: 10,
   },
   helpLinkText: {
     textAlign: 'center',

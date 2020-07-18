@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
     color: 'yellow',
   },
   separator: {
-    marginVertical: 30,
-    height: 1,
+    marginVertical: 20,
+    height: 0.5,
     width: '80%',
   },
 });
