@@ -13,7 +13,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
         <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
+          darkColor="rgba(0,255,0,0.8)">
           Crazy Rockers™️
         </Text>
 
@@ -27,7 +27,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
         <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
+          darkColor="rgba(0,255,0,0.8)">
           Yours truly, Aakash.
         </Text>
       </View>
@@ -45,7 +45,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
 
 function handleHelpPress() {
   WebBrowser.openBrowserAsync(
-    'https://github.com/AakashSundarS/WebsiteDevelopment.git'
+    'https://github.com/AakashSundarS/ReactNative.git'
   );
 }
 
@@ -104,5 +104,6 @@ const styles = StyleSheet.create({
   },
   helpLinkText: {
     textAlign: 'center',
+    color: 'rgba(0,255,255,0.8)',
   },
 });

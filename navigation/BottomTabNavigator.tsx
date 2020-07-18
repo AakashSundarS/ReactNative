@@ -22,14 +22,15 @@ export default function BottomTabNavigator() {
         name="Click Here Aruna"
         component={TabOneNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color="rgba(0,255,255,1)" />,
         }}
       />
       <BottomTab.Screen
         name="Click Here Dheena"
         component={TabTwoNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color="rgba(0,255,255,1)"
+ />,
         }}
       />
     </BottomTab.Navigator>

@@ -8,7 +8,7 @@ export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>To Dheenadhayalan</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <View style={styles.separator} lightColor="#eee" darkColor="rgba(0,255,255,0.5)" />
       <EditScreenInfo path="My dear Dheena, Please quickly finish Danny's pamphlet work!" />
     </View>
   );
@@ -21,8 +21,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    fontSize: 20,
+    fontSize: 30,
     fontWeight: 'bold',
+    color: 'yellow',
   },
   separator: {
     marginVertical: 30,
